@@ -1,0 +1,54 @@
+# --------------------
+# Python
+# --------------------
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environment
+venv/
+env/
+.venv/
+ENV/
+
+# --------------------
+# Model Weights
+# --------------------
+*.pt
+*.pth
+*.bin
+
+# HuggingFace cache
+.cache/
+huggingface/
+hf_cache/
+
+# --------------------
+# Logs & CSV Files
+# --------------------
+*.csv
+*.log
+
+# --------------------
+# OS Files
+# --------------------
+.DS_Store
+Thumbs.db
+
+# --------------------
+# IDE / Editor
+# --------------------
+.vscode/
+.idea/
+
+# --------------------
+# Jupyter
+# --------------------
+.ipynb_checkpoints/
+
+# --------------------
+# Video / Temp Files
+# --------------------
+*.mp4
+*.avi
+*.mov
